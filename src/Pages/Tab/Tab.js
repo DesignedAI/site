@@ -33,8 +33,7 @@ const TabDiv = styled.div`
 const TabMobileDiv = styled.div`
     width: 85px;
     height: 60px;
-    margin: 0 8px 0 0;
-    padding: 5px;
+    margin: 0 5px 0 0;
     cursor: pointer;
     display: flex;
     justify-content: center;

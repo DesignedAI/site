@@ -9,6 +9,7 @@ const H1 = styled.h1`
     font-weight: ${(props) => props.fontWeight || "700"};
     color: ${(props) => props.theme.color[props.color] || props.theme.color.bk};
     ${(props) => props.$center && "text-align: center"};
+    line-height: ${(props) => props.$lineHeight || "1.2"};
 `
 
 const H2 = styled.h2`
@@ -20,6 +21,7 @@ const H2 = styled.h2`
     font-weight: ${(props) => props.fontWeight || "500"};
     color: ${(props) => props.theme.color[props.color] || props.theme.color.bk};
     ${(props) => props.$center && "text-align: center"};
+    line-height: ${(props) => props.$lineHeight || "1.2"};
 `
 
 export { H1, H2 }

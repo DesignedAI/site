@@ -286,17 +286,19 @@ const Contact = () => {
             </PC>
 
             <Mobile>
-                <Div display="flex" width="100%" $margin="100px 0 ">
-                    <Div width="520px" $padding="20px" $margin="50px 0 " $border={`1px solid ${theme.color.red2}`}>
+                <Div display="flex" width="100%">
+                    <Div width="520px" $padding="20px" $margin="10px 0 " $border={`1px solid ${theme.color.red2}`}>
                         <form ref={form}>
                             <Div $margin="7px 0">
-                                <H2 fontWeight="800">Fill the form below</H2>
+                                <H2 fontWeight="800" fontSize="sm">
+                                    Fill the form below
+                                </H2>
                             </Div>
 
                             <Div display="flex" width="100%" $justifyContent="space-between">
                                 <Div width="49%">
                                     <Div $margin="7px 0">
-                                        <P fontSize="sm">First Name *</P>
+                                        <P fontSize="xxs">First Name *</P>
                                     </Div>
                                     <Div $margin="7px 0" width="100%">
                                         <Input
@@ -312,7 +314,7 @@ const Contact = () => {
                                 </Div>
                                 <Div width="49%">
                                     <Div $margin="7px 0">
-                                        <P fontSize="sm">Last Name *</P>
+                                        <P fontSize="xxs">Last Name *</P>
                                     </Div>
                                     <Div $margin="7px 0" width="100%">
                                         <Input
@@ -329,7 +331,7 @@ const Contact = () => {
 
                             <Div width="100%">
                                 <Div $margin="7px 0">
-                                    <P fontSize="sm">Company or Affiation *</P>
+                                    <P fontSize="xxs">Company or Affiation *</P>
                                 </Div>
                                 <Div width="100%" $margin="7px 0">
                                     <Input
@@ -345,7 +347,7 @@ const Contact = () => {
 
                             <Div width="100%">
                                 <Div $margin="7px 0">
-                                    <P fontSize="sm">Job title *</P>
+                                    <P fontSize="xxs">Job title *</P>
                                 </Div>
                                 <Div width="100%" $margin="7px 0">
                                     <Input
@@ -362,7 +364,7 @@ const Contact = () => {
                             <Div display="flex" width="100%" $justifyContent="space-between">
                                 <Div width="49%">
                                     <Div $margin="7px 0">
-                                        <P fontSize="sm">Email *</P>
+                                        <P fontSize="xxs">Email *</P>
                                     </Div>
                                     <Div $margin="7px 0" width="100%">
                                         <Input
@@ -379,7 +381,7 @@ const Contact = () => {
                                 </Div>
                                 <Div width="49%">
                                     <Div $margin="7px 0">
-                                        <P fontSize="sm">Phone number *</P>
+                                        <P fontSize="xxs">Phone number *</P>
                                     </Div>
                                     <Div $margin="7px 0" width="100%">
                                         <Input
@@ -396,7 +398,7 @@ const Contact = () => {
 
                             <Div width="100%">
                                 <Div $margin="7px 0">
-                                    <P fontSize="sm" color="grey2">
+                                    <P fontSize="xxs" color="grey2">
                                         How did you hear about DesignedAI?
                                     </P>
                                 </Div>
@@ -412,7 +414,7 @@ const Contact = () => {
 
                             <Div width="100%">
                                 <Div $margin="7px 0">
-                                    <P fontSize="sm" color="grey2">
+                                    <P fontSize="xxs" color="grey2">
                                         What is your task?
                                     </P>
                                 </Div>
@@ -428,7 +430,7 @@ const Contact = () => {
 
                             <Div width="100%">
                                 <Div $margin="7px 0">
-                                    <P fontSize="sm" color="grey2">
+                                    <P fontSize="xxs" color="grey2">
                                         What brings you to DesignedAI?
                                     </P>
                                 </Div>
@@ -444,7 +446,7 @@ const Contact = () => {
 
                             <Div width="100%">
                                 <Div $margin="7px 0">
-                                    <P fontSize="sm">Message*</P>
+                                    <P fontSize="xxs">Message*</P>
                                 </Div>
                                 <Div width="100%" $margin="7px 0">
                                     <TextArea
@@ -466,22 +468,24 @@ const Contact = () => {
                                 $borderRadius="5px"
                                 $pointer
                             >
-                                <P>SEND</P>
+                                <P fontSize="xs">SEND</P>
                             </Div>
                         </form>
                     </Div>
                     <Div display="flex" width="520px" $padding="20px" direction="column">
                         <Div display="flex">
-                            <H2 fontSize="lg" $center fontWeight={800}>
+                            <H2 fontSize="sm" $center fontWeight={800}>
                                 Meet with our expert and <br /> have all your questions answered
                             </H2>
                         </Div>
                         <Div display="flex" width="100%" $justifyContent="start" $margin="50px 0 0 0">
-                            <P color="grey2">We are located at</P>
+                            <P color="grey2" fontSize="xxs">
+                                We are located at
+                            </P>
                         </Div>
                         <Div display="flex" width="100%" $justifyContent="end" $padding="0 0 50px 0">
                             <Div>
-                                <P color="grey2">
+                                <P color="grey2" fontSize="xxs">
                                     604, 57 Dongtancheomdansaneop 1-ro,
                                     <br />
                                     Hwaseong-si, Gyeonggi-do, 18469,

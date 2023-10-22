@@ -12,7 +12,7 @@ const HR = styled.hr`
     margin: 0;
 `
 const MobileHR = styled.hr`
-    width: 5%;
+    width: 3%;
     margin: 0;
 `
 const AbDiv = styled(Div)`
@@ -176,9 +176,9 @@ const BLAS = () => {
                 </Div>
             </PC>
             <Mobile>
-                <Div width="100%" display="flex" $padding="30px" $margin=" 0 0 30px 0" $backgroundColor="grey1">
+                <Div width="100%" display="flex" $padding="10px" $margin=" 0 0 30px 0" $backgroundColor="grey1">
                     <Div>
-                        <P fontSize="sm">
+                        <P fontSize="xxs" $lineHeight="1.6">
                             Our innovative BLAS-GEMM compute-kernel technology delivers the state-of-the-art performance
                         </P>
                     </Div>
@@ -194,12 +194,12 @@ const BLAS = () => {
                         $padding="10px"
                     >
                         <Div display="flex">
-                            <P fontWeight="800" fontSize="xs">
+                            <P fontWeight="800" fontSize="xxs">
                                 Computing
                             </P>
                         </Div>
                         <Div display="flex">
-                            <P fontWeight="800" fontSize="xs">
+                            <P fontWeight="800" fontSize="xxxs">
                                 2.5X
                             </P>
                         </Div>
@@ -214,7 +214,7 @@ const BLAS = () => {
                         $padding="10px"
                     >
                         <Div display="flex">
-                            <P fontWeight="800" fontSize="xs">
+                            <P fontWeight="800" fontSize="xxs">
                                 Metep
                             </P>
                         </Div>
@@ -229,23 +229,26 @@ const BLAS = () => {
                         $padding="10px"
                     >
                         <Div display="flex">
-                            <P fontWeight="800" fontSize="xs">
+                            <P fontWeight="800" fontSize="xxs">
                                 Memory
                             </P>
                         </Div>
                         <Div display="flex">
-                            <P fontWeight="800" fontSize="xs">
+                            <P fontWeight="800" fontSize="xxxs">
                                 1.6X
                             </P>
                         </Div>
                     </Div>
                     <Div display="flex" width="100%" $margin="50px 0" $backgroundColor="darkBlue">
                         <Div $padding="10px 20px">
-                            <P fontSize="xs">Fused Matrix multiplication (GEMM) Task: C = C + (A-B)(A+B)</P>
+                            <P fontSize="xxs" $center $lineHeight="1.6">
+                                Fused Matrix multiplication (GEMM)
+                                <br /> Task: C = C + (A-B)(A+B)
+                            </P>
                         </Div>
                     </Div>
                 </Div>
-                <Div display="flex" width="100%" $margin="30px 0 0 0" $justifyContent="space-evenly">
+                <Div display="flex" width="100%" $justifyContent="space-evenly">
                     <Div>
                         <Div
                             width="100%"
@@ -256,14 +259,14 @@ const BLAS = () => {
                             $margin="0 0 30px 0"
                         >
                             <Div>
-                                <P fontSize="xs" fontWeight="800">
+                                <P fontSize="xxs" fontWeight="800">
                                     Computing Performance
                                 </P>
                             </Div>
                         </Div>
                         <Div display="flex" width="100%" $margin="20px 0" $justifyContent="end">
                             <Div>
-                                <P fontSize="xxs" fontWeight="600">
+                                <P fontSize="xxxs" fontWeight="600">
                                     *High is better
                                 </P>
                             </Div>
@@ -282,14 +285,14 @@ const BLAS = () => {
                             $margin="30px 0"
                         >
                             <Div>
-                                <P fontSize="xs" fontWeight="800">
+                                <P fontSize="xxs" fontWeight="800">
                                     Memory Usage
                                 </P>
                             </Div>
                         </Div>
                         <Div display="flex" width="100%" $justifyContent="end" $margin="20px 0">
                             <Div>
-                                <P fontSize="xxs" fontWeight="600">
+                                <P fontSize="xxxs" fontWeight="600">
                                     *Less is better
                                 </P>
                             </Div>
@@ -300,7 +303,7 @@ const BLAS = () => {
                     </Div>
                     <Div width="100%" $margin="20px 0">
                         <Div>
-                            <P $lineHeight="1.6" fontSize="xxs">
+                            <P $lineHeight="1.6" fontSize="xxxs">
                                 <i>
                                     * Benchmark Environment: Intel Xeon E-2640v4 (Broadwell,10 cores/socket, 2 sockets),
                                     multi-cores CPU-based computation
@@ -313,7 +316,7 @@ const BLAS = () => {
                                 </i>
                             </P>
                             <Div>
-                                <P $lineHeight="1.6" fontSize="xxs">
+                                <P $lineHeight="1.6" fontSize="xxxs">
                                     <i>(*Results can differ from other execution environments)</i>
                                 </P>
                             </Div>

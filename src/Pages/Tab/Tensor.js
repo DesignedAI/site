@@ -13,7 +13,7 @@ const HR = styled.hr`
     margin: 0;
 `
 const MobileHR = styled.hr`
-    width: 5%;
+    width: 3%;
     margin: 0;
 `
 
@@ -354,12 +354,12 @@ const Tensor = () => {
             <Mobile>
                 <Div width="100%" display="flex">
                     <Div $padding="10px" $backgroundColor="grey1">
-                        <P fontSize="sm" $center>
+                        <P fontSize="xxs" $lineHeight="1.6">
                             See our innovative cost-efficient performance over various tensor operations.
                         </P>
                     </Div>
                 </Div>
-                <Div width="100%" display="flex">
+                <Div width="100%" display="flex" $margin="20px 0 0 0">
                     <Div
                         width="100px"
                         display="flex"
@@ -369,12 +369,12 @@ const Tensor = () => {
                         $padding="10px "
                     >
                         <Div display="flex">
-                            <P fontSize="xs" fontWeight="800">
+                            <P fontSize="xxs" fontWeight="800">
                                 Latency
                             </P>
                         </Div>
                         <Div display="flex">
-                            <P fontSize="xxs" fontWeight="800">
+                            <P fontSize="xxxs" fontWeight="800">
                                 10X
                             </P>
                         </Div>
@@ -389,7 +389,7 @@ const Tensor = () => {
                         $padding="10px"
                     >
                         <Div display="flex">
-                            <P fontWeight="800" fontSize="xs">
+                            <P fontWeight="800" fontSize="xxs">
                                 Metep
                             </P>
                         </Div>
@@ -404,21 +404,21 @@ const Tensor = () => {
                         $padding="10px"
                     >
                         <Div display="flex">
-                            <P fontWeight="800" fontSize="xs">
+                            <P fontWeight="800" fontSize="xxs">
                                 Memory
                             </P>
                         </Div>
                         <Div display="flex">
-                            <P fontWeight="800" fontSize="xxs">
+                            <P fontWeight="800" fontSize="xxxs">
                                 3X
                             </P>
                         </Div>
                     </Div>
 
-                    <Div display="flex" width="100%" $padding="10px" $margin="50px 0 0 0">
+                    <Div display="flex" width="100%" $padding="10px" $margin="10px 0 0 0">
                         <Div display="flex" $justifyContent="space-around" direction="column">
                             <Div width="100%">
-                                <P fontWeight={800} fontSize="xxs">
+                                <P fontWeight={800} fontSize="xxxs">
                                     * Less is better
                                 </P>
                             </Div>
@@ -427,15 +427,15 @@ const Tensor = () => {
                                     <Img src="/images/tensor.png" />
                                 </Div>
                                 <Div>
-                                    <Div width="100%">
+                                    <Div width="100%" $margin="20px 0 ">
                                         <Div width="100%" display="flex" $margin="0 0 10px 0">
-                                            <P fontSize="sm" $center>
+                                            <P fontSize="xs" $center>
                                                 S/W Frameworks
                                             </P>
                                         </Div>
                                         <Div width="100%" $border="1px solid black" display="flex">
                                             <Div
-                                                width="100px"
+                                                width="40%"
                                                 $padding="5px"
                                                 display="flex"
                                                 $justifyContent="space-evenly"
@@ -470,7 +470,7 @@ const Tensor = () => {
                                                 </Div>
                                             </Div>
                                             <Div
-                                                width="200px"
+                                                width="60%"
                                                 $padding="5px"
                                                 display="flex"
                                                 $justifyContent="space-evenly"
@@ -506,14 +506,14 @@ const Tensor = () => {
                                             </Div>
                                         </Div>
 
-                                        <Div width="100%" display="flex" $margin="10px 0">
-                                            <P fontSize="sm" $center>
+                                        <Div width="100%" display="flex" $margin="20px 0 10px 0">
+                                            <P fontSize="xs" $center>
                                                 Tensor Operations
                                             </P>
                                         </Div>
                                         <Div width="100%" $border="1px solid black" display="flex">
                                             <Div
-                                                width="100px"
+                                                width="20%"
                                                 $padding="5px"
                                                 display="flex"
                                                 $justifyContent="space-evenly"
@@ -569,7 +569,7 @@ const Tensor = () => {
                                                 </Div>
                                             </Div>
                                             <Div
-                                                width="200px"
+                                                width="79%"
                                                 $padding="5px"
                                                 display="flex"
                                                 $justifyContent="space-evenly"
@@ -631,7 +631,7 @@ const Tensor = () => {
                         </Div>
                         <Div width="100%" $margin="10px 0">
                             <Div>
-                                <P $lineHeight="1.6" fontSize="xxs">
+                                <P $lineHeight="1.6" fontSize="xxxs">
                                     <i>
                                         * Benchmark Environment: Intel Xeon E-2620v4 2 sockets (multi-cores CPUs-based
                                         computation)
@@ -641,7 +641,7 @@ const Tensor = () => {
                                     </i>
                                 </P>
                                 <Div>
-                                    <P $lineHeight="1.6" fontSize="xxs">
+                                    <P $lineHeight="1.6" fontSize="xxxs">
                                         <i>(*Results can differ from other execution environments)</i>
                                     </P>
                                 </Div>
@@ -651,13 +651,13 @@ const Tensor = () => {
                         <Div width="100%" display="flex">
                             <Div
                                 $backgroundColor="redlayer1"
-                                $margin="50px 0"
+                                $margin="20px 0"
                                 $padding="20px 30px"
                                 $borderRadius="10px"
                                 onClick={moveContact}
                                 $pointer
                             >
-                                <P fontSize="sm" $center fontWeight={700}>
+                                <P fontSize="xxs" $center fontWeight={700}>
                                     Request more detailed technical article
                                 </P>
                             </Div>

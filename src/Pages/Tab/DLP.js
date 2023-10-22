@@ -14,7 +14,7 @@ const HR = styled.hr`
 `
 
 const MobileHR = styled.hr`
-    width: 5%;
+    width: 3%;
     margin: 0;
 `
 
@@ -215,8 +215,8 @@ const DLP = () => {
             <Mobile>
                 <Div width="100%" display="flex">
                     <Div width="100%" display="flex">
-                        <Div width="100%" $padding="30px" $margin=" 0 0 50px 0" $backgroundColor="grey1">
-                            <P fontSize="sm" $center>
+                        <Div width="100%" $padding="10px" $backgroundColor="grey1">
+                            <P fontSize="xxs" $lineHeight="1.6">
                                 Convolution is one of the most compute-intensive deep learning primitive operations,
                                 which takes 80% computation of most of convolutional neural networks. See our
                                 resource-efficient the state-of-the-art performance over a variety of convolution
@@ -225,7 +225,7 @@ const DLP = () => {
                         </Div>
                     </Div>
 
-                    <Div width="100%" display="flex">
+                    <Div width="100%" display="flex" $margin="20px 0">
                         <Div
                             width="100px"
                             display="flex"
@@ -235,12 +235,12 @@ const DLP = () => {
                             $padding="10px"
                         >
                             <Div display="flex">
-                                <P fontSize="xs" fontWeight="800">
+                                <P fontSize="xxs" fontWeight="800">
                                     Latency
                                 </P>
                             </Div>
                             <Div display="flex">
-                                <P fontWeight="800" fontSize="xxs">
+                                <P fontWeight="800" fontSize="xxxs">
                                     5.3X
                                 </P>
                             </Div>
@@ -255,7 +255,7 @@ const DLP = () => {
                             $padding="10px"
                         >
                             <Div display="flex">
-                                <P fontWeight="800" fontSize="xs">
+                                <P fontWeight="800" fontSize="xxs">
                                     Metep
                                 </P>
                             </Div>
@@ -270,12 +270,12 @@ const DLP = () => {
                             $padding="10px "
                         >
                             <Div display="flex">
-                                <P fontWeight="800" fontSize="xs">
+                                <P fontWeight="800" fontSize="xxs">
                                     Memory
                                 </P>
                             </Div>
                             <Div display="flex">
-                                <P fontWeight="800" fontSize="xs">
+                                <P fontWeight="800" fontSize="xxxs">
                                     2.2X
                                 </P>
                             </Div>
@@ -284,7 +284,7 @@ const DLP = () => {
 
                     <Div width="100%">
                         <Div width="100%" $margin="20px 0">
-                            <P fontWeight={800} fontSize="xxs">
+                            <P fontWeight={800} fontSize="xxxs">
                                 * Less is better
                             </P>
                         </Div>
@@ -299,7 +299,7 @@ const DLP = () => {
                                     $margin="0 0 30px 0"
                                 >
                                     <Div>
-                                        <P fontSize="xs" fontWeight="800">
+                                        <P fontSize="xxs" fontWeight="800">
                                             Latency
                                         </P>
                                     </Div>
@@ -318,7 +318,7 @@ const DLP = () => {
                                     $margin="0 0 30px 0"
                                 >
                                     <Div>
-                                        <P fontSize="xs" fontWeight="800">
+                                        <P fontSize="xxs" fontWeight="800">
                                             Memory Usage
                                         </P>
                                     </Div>
@@ -332,25 +332,31 @@ const DLP = () => {
                         <Div width="100%">
                             <Div width="100%" display="flex">
                                 <Div $margin="20px 0">
-                                    <P fontSize="xs">Convolution parameters(IC x OC x H(W))</P>
+                                    <P fontSize="xxs">Convolution parameters(IC x OC x H(W))</P>
                                 </Div>
                             </Div>
                             <Div width="100%" $border={`1px solid ${theme.color.grey}`} padding="20px">
                                 {contentList.map((element) => (
-                                    <Div $margin="10px 0" display="flex">
-                                        <Div display="flex" $justifyContent="end" width="110px">
+                                    <Div $margin="10px 0" width="100%" display="flex">
+                                        <Div display="flex" width="33%">
                                             <Div>
-                                                <P fontSize="xs">{element[0]}</P>
+                                                <P fontSize="xxs" $center>
+                                                    {element[0]}
+                                                </P>
                                             </Div>
                                         </Div>
-                                        <Div display="flex" $justifyContent="end" width="110px">
+                                        <Div display="flex" width="33%">
                                             <Div>
-                                                <P fontSize="xs">{element[1]}</P>
+                                                <P fontSize="xxs" $center>
+                                                    {element[1]}
+                                                </P>
                                             </Div>
                                         </Div>
-                                        <Div display="flex" $justifyContent="end" width="110px">
+                                        <Div display="flex" width="33%">
                                             <Div>
-                                                <P fontSize="xs">{element[2]}</P>
+                                                <P fontSize="xxs" $center>
+                                                    {element[2]}
+                                                </P>
                                             </Div>
                                         </Div>
                                     </Div>
@@ -360,7 +366,7 @@ const DLP = () => {
 
                         <Div width="100%" $margin="20px 0">
                             <Div>
-                                <P $lineHeight="1.6" fontSize="xxs">
+                                <P $lineHeight="1.6" fontSize="xxxs">
                                     <i>
                                         * Benchmark Environment: Intel Xeon E-2695v4 2 sockets (multi-cores CPUs-based
                                         computation)
@@ -373,7 +379,7 @@ const DLP = () => {
                                     </i>
                                 </P>
                                 <Div>
-                                    <P $lineHeight="1.6" fontSize="xxs">
+                                    <P $lineHeight="1.6" fontSize="xxxs">
                                         <i>(*Results can differ from other execution environments)</i>
                                     </P>
                                 </Div>

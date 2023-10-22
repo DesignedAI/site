@@ -53,7 +53,7 @@ const UseCase = () => {
                 <Div display="flex" width="100%">
                     <Div width="100%" display="flex">
                         <Div width="100%" $backgroundColor="grey" $padding="10px 0">
-                            <P fontSize="sm" $center $whitespace="normal">
+                            <P fontSize="xs" $center $whitespace="normal">
                                 See Our Real-time Object Detection Use Case
                             </P>
                         </Div>

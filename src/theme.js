@@ -15,6 +15,7 @@ const theme = {
         grey2: "rgba(159,159,159, 1)",
     },
     fontSize: {
+        xxxs: "8px",
         xxs: "12px",
         xs: "15px",
         sm: "18px",

@@ -159,11 +159,11 @@ const About = () => {
             <Mobile>
                 <Div $backgroundColor="grey1" width="100%" $margin="0 0 100px 0">
                     <Div width="100%" $backgroundColor="grey" $padding="15px 0">
-                        <P fontSize="sm" $center fontWeight="800">
+                        <P fontSize="xs" $center fontWeight="800">
                             Where DesignedAI can help you!
                         </P>
                     </Div>
-                    <Div display="flex" width="100%" $margin="50px 0 ">
+                    <Div display="flex" width="100%" $margin="10px 0 30px">
                         <Div width="90%" display="flex" direction="column" $margin="30px 0 0 0">
                             <Div
                                 width="100%"
@@ -173,14 +173,14 @@ const About = () => {
                                 height="100%"
                             >
                                 <Div width="100%">
-                                    <P fontWeight="800" $lineHeight="1.6" $center>
+                                    <P fontWeight="800" fontSize="xs" $lineHeight="1.6" $center>
                                         Cloud service providers
                                     </P>
                                 </Div>
                             </Div>
                             <Div width="100%">
                                 <Div width="100%">
-                                    <P $whitespace="normal" fontSize="sm" $center>
+                                    <P $whitespace="normal" fontSize="xxs" $lineHeight="1.6">
                                         Cut your cloud cost. We can help to run multiple instances of your AI mode
                                         without additional cost and save electricity bill.
                                         <br />
@@ -199,14 +199,14 @@ const About = () => {
                                 height="100%"
                             >
                                 <Div width="100%">
-                                    <P fontWeight="800" $lineHeight="1.6" $center>
+                                    <P fontWeight="800" $lineHeight="1.6" $center fontSize="xs">
                                         AI chip makers
                                     </P>
                                 </Div>
                             </Div>
                             <Div width="100%">
                                 <Div width="100%">
-                                    <P $whitespace="normal" fontSize="sm" $center>
+                                    <P $whitespace="normal" fontSize="xxs" $lineHeight="1.6">
                                         Preserve the best performance of your AI chip at application level. We can help
                                         to develop AI software stacks including compute-kernels for your AI chips.
                                     </P>
@@ -222,14 +222,14 @@ const About = () => {
                                 height="100%"
                             >
                                 <Div width="100%">
-                                    <P fontWeight="800" $lineHeight="1.6" $center>
+                                    <P fontWeight="800" $lineHeight="1.6" $center fontSize="xs">
                                         Edge and tiny AI area
                                     </P>
                                 </Div>
                             </Div>
                             <Div width="100%">
                                 <Div width="100%">
-                                    <P $whitespace="normal" fontSize="sm" $center>
+                                    <P $whitespace="normal" fontSize="xxs" $lineHeight="1.6">
                                         Be more sustainable. We can help to last the battery longer.
                                         <br />
                                         <br />
@@ -248,14 +248,14 @@ const About = () => {
                                 height="100%"
                             >
                                 <Div width="100%">
-                                    <P fontWeight="800" $lineHeight="1.6" $center>
+                                    <P fontWeight="800" $lineHeight="1.6" $center fontSize="xs">
                                         Company for introducing AI
                                     </P>
                                 </Div>
                             </Div>
                             <Div width="100%">
                                 <Div width="100%">
-                                    <P $whitespace="normal" fontSize="sm" $center>
+                                    <P $whitespace="normal" fontSize="xxs" $lineHeight="1.6">
                                         Make AI adoption fast and easy. We can help to build custom AI solution as well
                                         as consult AI expertise for your business purpose.
                                     </P>
@@ -271,14 +271,14 @@ const About = () => {
                                 height="100%"
                             >
                                 <Div width="100%">
-                                    <P fontWeight="800" $lineHeight="1.6" $center>
+                                    <P fontWeight="800" $lineHeight="1.6" $center fontSize="xs">
                                         Scientific research groups
                                     </P>
                                 </Div>
                             </Div>
                             <Div width="100%">
                                 <Div width="100%">
-                                    <P $whitespace="normal" fontSize="sm" $center>
+                                    <P $whitespace="normal" fontSize="xxs" $lineHeight="1.6">
                                         Focus on your domain task. We can help to run your computation algorithm or
                                         simulation more efficiently.
                                     </P>

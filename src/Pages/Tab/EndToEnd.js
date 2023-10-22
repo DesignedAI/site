@@ -135,7 +135,7 @@ const EndToEnd = () => {
             <Mobile>
                 <Div $padding="10px" $borderRadius="10px">
                     <Div>
-                        <P fontSize="sm" $center color="bk" $whitespace="normal" $lineHeight="1.4">
+                        <P fontSize="xxs" color="bk" $whitespace="normal" $lineHeight="1.6">
                             DesignedAI Metep framework achieves the significantly superior performance with less
                             computing resources for end-to-end real-time object detection task based on Yolov4 model
                             compared to the world-famous deep learning frameworks, based on the same multi-core CPUs HW
@@ -144,7 +144,7 @@ const EndToEnd = () => {
                     </Div>
 
                     <Div width="100%" $margin="50px 0 0 0">
-                        <P color="bk" fontSize="xxs" fontWeight="800">
+                        <P color="bk" fontSize="xxxs" fontWeight="800">
                             * Less is better.
                         </P>
                     </Div>
@@ -160,7 +160,7 @@ const EndToEnd = () => {
                                 $margin="0 0 10px 0"
                             >
                                 <Div>
-                                    <P fontSize="xs" fontWeight="800">
+                                    <P fontSize="xxs" fontWeight="800">
                                         Latency per image
                                     </P>
                                 </Div>
@@ -179,7 +179,7 @@ const EndToEnd = () => {
                                 $margin="0 0 10px 0"
                             >
                                 <Div>
-                                    <P fontSize="xs" fontWeight="800">
+                                    <P fontSize="xxs" fontWeight="800">
                                         Memory Usage
                                     </P>
                                 </Div>
@@ -201,7 +201,7 @@ const EndToEnd = () => {
                                 $margin="0 0 30px 0"
                             >
                                 <Div>
-                                    <P fontSize="xs" fontWeight="800">
+                                    <P fontSize="xxs" fontWeight="800">
                                         Energy Consumption
                                     </P>
                                 </Div>
@@ -220,7 +220,7 @@ const EndToEnd = () => {
                                 $margin="0 0 30px 0"
                             >
                                 <Div>
-                                    <P fontSize="xs" fontWeight="800">
+                                    <P fontSize="xxs" fontWeight="800">
                                         Post-processing (NMS) time per image
                                     </P>
                                 </Div>
@@ -233,7 +233,7 @@ const EndToEnd = () => {
 
                     <Div width="100%">
                         <Div>
-                            <P fontSize="xxs" $lineHeight="1.6">
+                            <P fontSize="xxxs" $lineHeight="1.6">
                                 <i>
                                     * HW: Intel Xeon E-2695v4 (Broadwell), multi-core CPUs-based computation
                                     <br />
@@ -245,7 +245,7 @@ const EndToEnd = () => {
                                 </i>
                             </P>
                             <Div $margin="10px 0 0 0">
-                                <P fontSize="xxs" $lineHeight="1.6">
+                                <P fontSize="xxxs" $lineHeight="1.6">
                                     <i>(*Results can differ from other execution environments)</i>
                                 </P>
                             </Div>
