@@ -1,38 +1,38 @@
-import React from "react"
+import React from "react";
 
-import { useNavigate } from "react-router-dom"
-import { styled } from "styled-components"
-import { Mobile, PC } from "../../MediaQuery"
-import { Div } from "../../styles/Div"
-import Img from "../../styles/Img"
-import { P } from "../../styles/P"
-import theme from "../../theme"
+import { useNavigate } from "react-router-dom";
+import { styled } from "styled-components";
+import { Mobile, PC } from "../../MediaQuery";
+import { Div } from "../../styles/Div";
+import Img from "../../styles/Img";
+import { P } from "../../styles/P";
+import theme from "../../theme";
 
 const HR = styled.hr`
     width: 15%;
     margin: 0;
-`
+`;
 const MobileHR = styled.hr`
     width: 3%;
     margin: 0;
-`
+`;
 
 const AbDiv = styled(Div)`
     position: absolute;
 
     bottom: 0px;
-    right: 10px;
-`
+    right: 30px;
+`;
 
 const ReDiv = styled(Div)`
     position: relative;
-`
+`;
 
 const Tensor = () => {
-    const navigate = useNavigate()
+    const navigate = useNavigate();
     const moveContact = () => {
-        navigate("/contact")
-    }
+        navigate("/contact");
+    };
 
     return (
         <>
@@ -107,8 +107,8 @@ const Tensor = () => {
                         <Div width="100%">
                             <P fontWeight={800}>* Less is better</P>
                         </Div>
-                        <Div display="flex" width="100">
-                            <Div height="500px" display="flex">
+                        <Div display="flex" width="100%">
+                            <Div height="570px" display="flex">
                                 <Img src="/images/tensor.png" />
                             </Div>
                             <Div width="500px" height="500px">
@@ -316,7 +316,7 @@ const Tensor = () => {
                     </Div>
                 </Div>
 
-                <ReDiv width="100%" $margin="20px 0">
+                <ReDiv width="100%" $margin="20px 0 0 40px">
                     <Div>
                         <P fontSize="sm" $lineHeight="1.6">
                             <i>
@@ -423,17 +423,17 @@ const Tensor = () => {
                                 </P>
                             </Div>
                             <Div>
-                                <Div height="200px" display="flex">
+                                <Div width="100%" height="250px" display="flex" $padding="0 10px">
                                     <Img src="/images/tensor.png" />
                                 </Div>
                                 <Div>
                                     <Div width="100%" $margin="20px 0 ">
                                         <Div width="100%" display="flex" $margin="0 0 10px 0">
-                                            <P fontSize="xs" $center>
+                                            <P fontSize="xs" $center color="grey2">
                                                 S/W Frameworks
                                             </P>
                                         </Div>
-                                        <Div width="100%" $border="1px solid black" display="flex">
+                                        <Div width="100%" $border={`1px solid ${theme.color.grey2}`} display="flex">
                                             <Div
                                                 width="40%"
                                                 $padding="5px"
@@ -442,28 +442,28 @@ const Tensor = () => {
                                             >
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Armadillo
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Framework(A)
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Framework(B)
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Metep
                                                         </P>
                                                     </Div>
@@ -477,28 +477,28 @@ const Tensor = () => {
                                             >
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             C++ (Open-source)
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Commercial software
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Python (OS framework)
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             C++ (Ours)
                                                         </P>
                                                     </Div>
@@ -507,11 +507,11 @@ const Tensor = () => {
                                         </Div>
 
                                         <Div width="100%" display="flex" $margin="20px 0 10px 0">
-                                            <P fontSize="xs" $center>
+                                            <P fontSize="xs" $center color="grey2">
                                                 Tensor Operations
                                             </P>
                                         </Div>
-                                        <Div width="100%" $border="1px solid black" display="flex">
+                                        <Div width="100%" $border={`1px solid ${theme.color.grey2}`} display="flex">
                                             <Div
                                                 width="20%"
                                                 $padding="5px"
@@ -520,49 +520,49 @@ const Tensor = () => {
                                             >
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             EOP
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             MOPS
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             SMA
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             MPA
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             RND
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             KNN
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="end">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             LR
                                                         </P>
                                                     </Div>
@@ -576,49 +576,49 @@ const Tensor = () => {
                                             >
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Element-wise tensor operation
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Composite tensor operation
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Sub-tensor access
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Matrix multiplication
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Random tensor generation
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             K-nearest neighbor classfication
                                                         </P>
                                                     </Div>
                                                 </Div>
                                                 <Div width="100%" display="flex" $justifyContent="start">
                                                     <Div>
-                                                        <P fontSize="xxs" $lineHeight="1.6">
+                                                        <P fontSize="xxs" $lineHeight="1.6" color="grey2">
                                                             Logistic regression learning
                                                         </P>
                                                     </Div>
@@ -629,7 +629,7 @@ const Tensor = () => {
                                 </Div>
                             </Div>
                         </Div>
-                        <Div width="100%" $margin="10px 0">
+                        <Div width="100%" $margin="20px 0 0 20px">
                             <Div>
                                 <P $lineHeight="1.6" fontSize="xxxs">
                                     <i>
@@ -666,7 +666,7 @@ const Tensor = () => {
                 </Div>
             </Mobile>
         </>
-    )
-}
+    );
+};
 
-export default Tensor
+export default Tensor;
